@@ -1,4 +1,5 @@
-﻿using HospitalManagementSystem.Data.Models;
+﻿using HospitalManagementSystem.Data.DTOs;
+using HospitalManagementSystem.Data.Models;
 
 namespace HospitalManagementSystem.Data
 {
@@ -238,8 +239,22 @@ namespace HospitalManagementSystem.Data
         public static List<Doctor> GetAllDoctor()
         {
             return DoctorDb;
-        }       
-          
+        }
+
+
+        public static List<Patient> PatientDb = new List<Patient>()
+        {
+            new Patient()
+            {
+               PatientsID="1",
+               PatientsName="Erjon Hoxhallari",
+                PatientDescription="Demtim i lehte",
+
+}
+        };
+        
     }
+
+
 
 }
