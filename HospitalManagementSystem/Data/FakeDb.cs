@@ -149,5 +149,97 @@ namespace HospitalManagementSystem.Data
             return medicalServiceDb;
         }
 
+
+        //Shtojme ne DB Doktoret 
+        public static List<Doctor> DoctorDb = new List<Doctor>()
+        {
+            new Doctor()
+            {
+                Id = 1,
+                DateCreated = DateTime.UtcNow,
+                DateUpdated = DateTime.UtcNow,
+                Name="Ornela",
+                Surname="Marko",
+                Role="Doctor",
+                Specialilst="Alergolog",
+                Department= "Alergologji",
+
+            },new Doctor()
+            {
+                Id = 2,
+                DateCreated = DateTime.UtcNow,
+                DateUpdated = DateTime.UtcNow,
+                Name=" Teona",
+                Surname="Bushati",
+                Role="Doctor",
+                Specialilst="Anatomopatolog",
+                Department="Anatomopatologji",
+
+            },new Doctor()
+            {
+                Id = 3,
+                DateCreated = DateTime.UtcNow,
+                DateUpdated = DateTime.UtcNow,
+                Name=" Avni",
+                Surname=" Koçi",
+                Role="Doctor",
+                Specialilst="Anestezist - Reanimator",
+                Department="Anesteziologji",
+
+            },new Doctor()
+            {
+                Id = 4,
+                DateCreated = DateTime.UtcNow,
+                DateUpdated = DateTime.UtcNow,
+                Name="Irena",
+                Surname="Savo",
+                Role="Doctor",
+                Specialilst="Dermatolog",
+                Department="Dermatologji",
+
+            },new Doctor()
+            {
+                Id = 5,
+                DateCreated = DateTime.UtcNow,
+                DateUpdated = DateTime.UtcNow,
+                Name="Ornela",
+                Surname="Marko",
+                Role="Doctor",
+                Specialilst="Alergolog",
+                Department="Alergologji",
+
+            },
+             new Doctor()
+            {
+                Id = 6,
+                DateCreated = DateTime.UtcNow,
+                DateUpdated = DateTime.UtcNow,
+                Name="Besfort",
+                Surname="Ferhati",
+                Role="Doctor",
+                Specialilst="Embriolog",
+                Department="Fekondimi in Vitro (IVF)",
+
+            },
+              new Doctor()
+            {
+                Id = 7,
+                DateCreated = DateTime.UtcNow,
+                DateUpdated = DateTime.UtcNow,
+                Name="Sotiraq",
+                Surname="Lako",
+                Role="Doctor",
+                Specialilst="Hematolog",
+                Department="Hematologji",
+
+            },
+        };
+        // Metoda qe kthen listen e Doktoreve
+        public static List<Doctor> GetAllDoctor()
+        {
+            return DoctorDb;
+        }       
+          
     }
+
 }

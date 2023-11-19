@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3XhnnJSFpm1ZJ0VnQs5IKbaykVyc+JrVkUQlQqkmcDAGTLLiZxEHPJHW5Cp3rkhkws8+akIMCvRk+jAo6td0uw==",
+  "dgSpecHash": "dAB+0/MvKQ93EzMS+YiBRYK/4a9tBcR3SUyyY+l5ut4aZy5DBRk8tYO4bxc7/bhu44MCIHEV2MH9iKSMSrl7pg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\User\\Downloads\\New folder (2)\\.net\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
