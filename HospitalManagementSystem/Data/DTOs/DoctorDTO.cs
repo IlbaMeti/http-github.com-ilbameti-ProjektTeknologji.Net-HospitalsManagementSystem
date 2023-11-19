@@ -7,5 +7,6 @@
         public string Role { get; set; }
         public string Specialilst { get; set; }
         public string Department { get; set; }
+        public object PatientsDescription { get; internal set; }
     }
 }
