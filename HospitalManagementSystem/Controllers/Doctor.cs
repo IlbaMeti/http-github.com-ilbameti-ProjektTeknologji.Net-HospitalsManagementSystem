@@ -6,13 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HospitalManagementSystem.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api")]
     [ApiController]
     public class DoctorController : ControllerBase
     {
 
         //Marrim Doktoret nga DB
-        [HttpGet("doctor")]
+        [HttpGet("doctors")]
         public IActionResult GetAllDoctor()
         {
             var doctorList = FakeDb.DoctorDb.ToList();
